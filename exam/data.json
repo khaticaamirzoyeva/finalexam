@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Thermo Ball Etip Gloves",
+      "prize": 45.743,
+      "image": "./assets/image/popular1.png"
+    },
+    {
+      "id": 2,
+      "name": "Thermo Ball Etip Gloves",
+      "prize": 41.743,
+      "image": "./assets/image/popular6.png"
+    },
+    {
+      "id": 3,
+      "name": "Thermo Ball Etip Gloves",
+      "prize": 30.743,
+      "image": "./assets/image/popular2.png"
+    },
+    {
+      "id": 4,
+      "name": "Thermo Ball Etip Gloves",
+      "prize": 10.743,
+      "image": "./assets/image/popular3.png"
+    },
+    {
+      "id": 5,
+      "name": "Thermo Ball Etip Gloves",
+      "prize": 1.743,
+      "image": "./assets/image/popular4.png"
+    },
+    {
+      "id": 6,
+      "name": "Thermo Ball Etip Gloves",
+      "prize": 450.743,
+      "image": "./assets/image/popular5.png"
+    }
+  ]
+}

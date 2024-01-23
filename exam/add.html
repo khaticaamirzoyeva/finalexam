@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="navtop">
+        <div class="hot">HOT</div>
+    </div>
+   <nav>
+    <div class="container">
+        <div class="nav-o">
+            <div class="navleft">
+                <div class="img">
+                    <img src="assets/image/logo.png" alt="">
+                </div>
+
+            </div>
+            <div class="navcenter">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="add.html">Add</a></li>
+                </ul>
+            </div>
+            <div class="navright">
+                <ul>
+                    <li><i class="bi bi-search"></i></li>
+                    <li><i class="bi bi-person"></i></li>
+                    <li><i class="bi bi-cart"></i></li>
+                </ul>
+            </div>
+            <i id="click" class="bi bi-list"></i>
+        </div>
+    </div>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="add.html">Add</a></li>
+    </ul>
+   </nav>
+    <section class="add">
+        <form id="form">
+<label for="name">Name:</label>
+<input type="text" id="name">
+<p style="display: none; color: red;" >Bos xanalari doldur!!!</p>
+
+<label for="prize">Prize:</label>
+<input type="number"id="prize" >
+<p style="display: none; color: red;" >Bos xanalari doldur!!!</p>
+
+<div class="imgcont">
+    <label for="file">File:</label>
+    <input type="file" id="file">
+    <img src="" alt="" id="rounded-image">
+</div>
+
+<button>Add</button>
+
+        </form>
+
+        <table border="1" id="table">
+            <tr>
+                <td>ID:</td>
+                <td>NAME:</td>
+                <td>PRIZE:</td>
+                <td>DELETE:</td>
+                <td>UPDATE:</td>
+            </tr>
+        </table>
+    </section>
+
+    
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="assets/js/add.js"></script>
+</body>
+</html>
